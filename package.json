@@ -4,7 +4,7 @@
   "description": "Return an array of values within range, determined by range(start, stop[, step])",
   "main": "index.js",
   "scripts": {
-    "test": "nyc ava"
+    "test": "nyc --reporter=html --reporter=text ava"
   },
   "repository": {
     "type": "git",
