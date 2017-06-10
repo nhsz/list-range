@@ -1,6 +1,7 @@
 # list-range
 
 [![Build Status](https://travis-ci.org/nhsz/list-range.svg?branch=master)](https://travis-ci.org/nhsz/list-range)
+[![Coverage Status](https://coveralls.io/repos/github/nhsz/list-range/badge.svg?branch=master)](https://coveralls.io/github/nhsz/list-range?branch=master)
 
 [![Codebeat badge](https://codebeat.co/badges/90d7c473-974f-45d6-b62c-3415e6da8b0d)](https://codebeat.co/projects/github-com-nhsz-list-range-master)
 [![Codacy Badge](https://api.codacy.com/project/badge/Grade/330539c9950446358587769371f0cdd9)](https://www.codacy.com/app/nquiroz/list-range?utm_source=github.com&amp;utm_medium=referral&amp;utm_content=nhsz/list-range&amp;utm_campaign=Badge_Grade)
