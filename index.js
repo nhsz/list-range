@@ -9,11 +9,7 @@ function range (start = 0, stop = arguments[0], step = 1) {
     return []
   }
 
-  if (start < stop) {
-    return generateAscendingRange(start, stop, step)
-  }
-
-  return generateDescendingRange(start, stop, step)
+  return generateRange(start, stop, step)
 }
 
 function checkForValidArguments (args) {
@@ -34,18 +30,9 @@ function isInvalidRange (start, stop, step) {
   return start === stop || start < stop && step < 0 || start > stop && step > 0
 }
 
-function generateAscendingRange (start, stop, step) {
+function generateRange (start, stop, step) {
   let result = []
-  for (start; start < stop; start += step) {
-    result.push(start)
-  }
-
-  return result
-}
-
-function generateDescendingRange (start, stop, step) {
-  let result = []
-  for (start; start > stop; start += step) {
+  for (start; (stop - start) * step > 0; start += step) {
     result.push(start)
   }
 
