@@ -5,7 +5,7 @@ function range (start = 0, stop = arguments[0], step = 1) {
   checkForValidArguments(args)
   start = checkForOnlyOneArgument(args)
 
-  if (isNonValidRange(start, stop, step)) {
+  if (isInvalidRange(start, stop, step)) {
     return []
   }
 
@@ -30,7 +30,7 @@ function checkForOnlyOneArgument (args) {
   return args.length === 1 ? 0 : args[0]
 }
 
-function isNonValidRange (start, stop, step) {
+function isInvalidRange (start, stop, step) {
   return start === stop || start < stop && step < 0 || start > stop && step > 0
 }
 
