@@ -1,0 +1,38 @@
+{
+  "name": "list-range",
+  "version": "0.0.1",
+  "description": "Return an array of values within range, determined by range(start, stop[, step])",
+  "main": "index.js",
+  "scripts": {
+    "test": "nyc ava"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/nhsz/list-range.git"
+  },
+  "keywords": [
+    "array",
+    "list",
+    "fill",
+    "range",
+    "es6",
+    "python",
+    "expand",
+    "expansion"
+  ],
+  "author": {
+    "name": "Nicolás Quiroz",
+    "email": "nh.quiroz@gmail.com",
+    "url": "nicolasquiroz.com"
+  },
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/nhsz/list-range/issues"
+  },
+  "homepage": "https://github.com/nhsz/list-range#readme",
+  "devDependencies": {
+    "ava": "^0.19.1",
+    "coveralls": "^2.13.1",
+    "nyc": "^11.0.2"
+  }
+}
