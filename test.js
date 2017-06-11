@@ -1,5 +1,5 @@
 import test from 'ava'
-import range from '..'
+import range from './'
 
 test(t => {
   t.deepEqual(range(10, 10), [])
