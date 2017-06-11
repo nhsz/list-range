@@ -17,9 +17,17 @@ ES6 implementation of **[`Python built-in range()`](https://docs.python.org/3.6/
 - All the arguments must be integers
 - `step` can not be 0
 
+## Install
+
+```
+$ npm install list-range
+```
+
 ## Usage
 
 ```js
+const range = require('list-range')
+
 console.log(range(10))
 // [0, 1, 2, 3, 4, 5, 6, 7, 8, 9]
 console.log(range(10, 10))
