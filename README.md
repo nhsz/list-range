@@ -1,5 +1,8 @@
 # list-range
 
+> Return an array of values within range, determined by `range(start, stop[, step])`  
+ES6 implementation of **[`Python built-in range()`](https://docs.python.org/3.6/library/stdtypes.html#range)** function
+
 [![Build Status](https://travis-ci.org/nhsz/list-range.svg?branch=master)](https://travis-ci.org/nhsz/list-range)
 [![Coverage Status](https://coveralls.io/repos/github/nhsz/list-range/badge.svg?branch=master)](https://coveralls.io/github/nhsz/list-range?branch=master)
 [![Codebeat badge](https://codebeat.co/badges/90d7c473-974f-45d6-b62c-3415e6da8b0d)](https://codebeat.co/projects/github-com-nhsz-list-range-master)
@@ -7,9 +10,6 @@
 [![Code Climate](https://codeclimate.com/github/nhsz/list-range/badges/gpa.svg)](https://codeclimate.com/github/nhsz/list-range)
 
 [![NPM](https://nodei.co/npm/list-range.png?downloads=true&downloadRank=true&stars=true)](https://nodei.co/npm/list-range/)
-
-> Return an array of values within range, determined by `range(start, stop[, step])`  
-ES6 implementation of **[`Python built-in range()`](https://docs.python.org/3.6/library/stdtypes.html#range)** function
 
 ## Rules
 
