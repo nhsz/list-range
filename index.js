@@ -1,6 +1,6 @@
 'use strict'
 
-function range (start, stop = arguments[0], step = 1) {
+module.exports = function range (start, stop = arguments[0], step = 1) {
   let args = [...arguments]
   checkForValidArguments(args)
   start = checkForOnlyOneArgument(args)
@@ -38,5 +38,3 @@ const generateRange = (start, stop, step) => {
 
   return result
 }
-
-module.exports = range
