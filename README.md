@@ -6,6 +6,8 @@
 [![Codacy Badge](https://api.codacy.com/project/badge/Grade/330539c9950446358587769371f0cdd9)](https://www.codacy.com/app/nquiroz/list-range?utm_source=github.com&amp;utm_medium=referral&amp;utm_content=nhsz/list-range&amp;utm_campaign=Badge_Grade)
 [![Code Climate](https://codeclimate.com/github/nhsz/list-range/badges/gpa.svg)](https://codeclimate.com/github/nhsz/list-range)
 
+[![NPM](https://nodei.co/npm/list-range.png?downloads=true&downloadRank=true&stars=true)](https://nodei.co/npm/list-range/)
+
 > Return an array of values within range, determined by `range(start, stop[, step])`  
 ES6 implementation of **[`Python built-in range()`](https://docs.python.org/3.6/library/stdtypes.html#range)** function
 
