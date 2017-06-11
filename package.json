@@ -1,6 +1,6 @@
 {
   "name": "list-range",
-  "version": "1.0.2",
+  "version": "1.0.3",
   "description": "Return an array of values within range, determined by range(start, stop[, step])",
   "main": "index.js",
   "scripts": {
