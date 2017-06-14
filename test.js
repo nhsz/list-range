@@ -12,6 +12,10 @@ test(t => {
 
 test(t => {
   t.deepEqual(range(10), [0, 1, 2, 3, 4, 5, 6, 7, 8, 9])
+  t.deepEqual(range(4), [0, 1, 2, 3])
+  t.deepEqual(range(1, 5), [1, 2, 3, 4])
+  t.deepEqual(range(0, 20, 5), [0, 5, 10, 15])
+  t.deepEqual(range(0, -4, -1), [0, -1, -2, -3])
   t.deepEqual(range(1, 11), [1, 2, 3, 4, 5, 6, 7, 8, 9, 10])
   t.deepEqual(range(0, 30, 5), [0, 5, 10, 15, 20, 25])
   t.deepEqual(range(0, 10, 3), [0, 3, 6, 9])

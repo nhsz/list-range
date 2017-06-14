@@ -11,6 +11,12 @@ ES6 implementation of **[`Python built-in range()`](https://docs.python.org/3.6/
 
 [![NPM](https://nodei.co/npm/list-range.png?downloads=true&downloadRank=true&stars=true)](https://nodei.co/npm/list-range/)
 
+## Features
+
+- ES6
+- Zero dependencies
+- 100% test code coverage
+
 ## Rules
 
 - `start` and `step` are optional
