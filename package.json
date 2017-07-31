@@ -1,6 +1,6 @@
 {
   "name": "list-range",
-  "version": "1.0.5",
+  "version": "1.0.6",
   "description": "Return an array of values within range, determined by range(start, stop[, step])",
   "main": "index.js",
   "scripts": {
@@ -31,7 +31,7 @@
   },
   "homepage": "https://github.com/nhsz/list-range#readme",
   "devDependencies": {
-    "ava": "^0.19.1",
+    "ava": "^0.21.0",
     "coveralls": "^2.13.1",
     "nyc": "^11.0.2"
   }
